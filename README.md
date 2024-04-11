@@ -18,4 +18,5 @@ Mainly based on the dotfiles of [Matt-FTW](https://github.com/Matt-FTW/dotfiles)
 - wal
 - neovim
 - swaync
+- swappy
 
