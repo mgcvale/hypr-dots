@@ -7,7 +7,6 @@ Mainly based on the dotfiles of [Matt-FTW](https://github.com/Matt-FTW/dotfiles)
 - Kitty terminal
 - zsh shell
 - Waybar
-- Cava audio visualizer
 - Firefox
 - rofi and wofi
 - btop
@@ -19,4 +18,15 @@ Mainly based on the dotfiles of [Matt-FTW](https://github.com/Matt-FTW/dotfiles)
 - neovim
 - swaync
 - swappy
+- pywal
 
+# Screenshots
+
+<html>
+  <br>
+  <img src="screenshots/ss1.jpeg">
+  <hr>
+  <img src="screenshots/ss2.jpeg">
+  <hr>
+  <img src="screenshots/ss3.jpeg">
+</html>
