@@ -11,10 +11,9 @@
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
-"margin-top": 6,
-"margin-left": 10,
-"margin-right": 10,
-"margin-bottom": 0,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
 "height": 8,
 
 "modules-left": [
@@ -36,5 +35,7 @@
 	"battery",
 	"custom/separator#line",
 	"custom/power",
+    "custom/separator",
+    "custom/separator#blank_1",
 	],
 }

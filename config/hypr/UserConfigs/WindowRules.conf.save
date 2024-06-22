@@ -11,8 +11,6 @@ windowrule = float, zoom
 windowrule = float, rofi
 windowrule = float, gnome-system-monitor
 windowrule = float, yad
-windowrule = float, kalk
-windowrule = float, plasma-systemmonitor
 
 #windowrule = noblur,gamescope
 #windowrule = fullscreen,gamescope
@@ -49,7 +47,6 @@ windowrulev2 = opacity 0.9 0.7, class:^(VSCodium)$
 windowrulev2 = opacity 0.9 0.7, class:^(yad)$
 windowrulev2 = opacity 0.9 0.7, class:^(com.obsproject.Studio)$
 windowrulev2 = opacity 0.9 0.7, class:^([Aa]udacious)$
-
 
 #layerrule = unset,class:^([Rr]ofi)$
 #layerrule = blur,class:^([Rr]ofi)$

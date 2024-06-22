@@ -31,13 +31,12 @@ bind = $mainMod SHIFT, N, exec, swaync-client -t -sw # swayNC panel
 bind = SHIFT, ALT_L, exec, $scriptsDir/SwitchKeyboardLayout.sh # Switch Keyboard Layout
 bind = $mainMod SHIFT, C, exec, $scriptsDir/ChangeInactiveTransparency.sh # Change transparency
 bind = $mainMod, R, exec, $scriptsDir/ChangeRefreshrate.sh
-bind = $mainMod, S, exec, $scriptsDir/ChangeSensitivity.sh
 
 # FEATURES / EXTRAS (UserScripts)
 bind = $mainMod, E, exec, $UserScripts/QuickEdit.sh # Quick Edit Hyprland Settings
 bind = $mainMod SHIFT, M, exec, $UserScripts/RofiBeats.sh # online music
 bind = $mainMod, W, exec, $UserScripts/WallpaperSelect.sh # Select wallpaper to apply
-bind = CTRL ALT, W, exec, $UserScripts/WallpaperRandom.sh # Random wallpapers
+bind = CTRL ALT, W, exec, $UsewrScripts/WallpaperRandom.sh # Random wallpapers
 
 # Waybar / Bar related
 bind = $mainMod, B, exec, killall -SIGUSR1 waybar # Toggle hide/show waybar 

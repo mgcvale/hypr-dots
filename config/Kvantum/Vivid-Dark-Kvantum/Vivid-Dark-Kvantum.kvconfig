@@ -67,8 +67,8 @@ toolbutton_style=2
 double_click=false
 translucent_windows=true
 no_window_pattern=false
-opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam
-reduce_window_opacity=25
+opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam,VirtualBox
+reduce_window_opacity=30
 respect_DE=true
 scrollable_menu=true
 submenu_delay=250
@@ -107,7 +107,7 @@ link.visited.color=#00819e
 progress.indicator.text.color=#d3dae3
 
 [Hacks]
-transparent_ktitle_label=true
+transparent_ktitle_label=false
 transparent_dolphin_view=true
 transparent_pcmanfm_sidepane=true
 blur_translucent=true

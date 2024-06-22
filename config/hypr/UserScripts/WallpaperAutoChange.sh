@@ -19,19 +19,11 @@ fi
 export SWWW_TRANSITION_FPS=60
 export SWWW_TRANSITION_TYPE=simple
 
-# This controls (in seconds) when to switch to the next image
-INTERVAL=1800
-
-while true; do
-	find "$1" |
-		while read -r img; do
-			echo "$((RANDOM % 1000)):$img"
-		done |
-		sort -n | cut -d':' -f2- |
-		while read -r img; do
-			swww img "$img"
-			$pywal_refresh
-			sleep $INTERVAL
-
-		done
-done
+find "$1" |
+	while read -r img; do
+		echo "$((RANDOM % 1000)):$img"
+	done |
+	sort -n | cut -d':' -f2- |
+	swww img "$img"
+	wal -i "$img"
+	$pywal_refresh

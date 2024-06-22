@@ -6,6 +6,7 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 padding: 0px;
 margin-top: 1px;
 margin-bottom: 1px;
+opacity: 80%;
 }
 
 
@@ -14,7 +15,7 @@ margin-bottom: 1px;
 	background-color: rgba(0, 0, 70, 0.2);
 	color: --wofi-color2;
 	/*border: 2px solid --wofi-color1;*/
-	border-radius: 0px;
+	border-radius: 24px;
 }
 
 #outer-box {

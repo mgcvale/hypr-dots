@@ -1,21 +1,10 @@
 /* 
-┌─┐┬┌┬┐┌─┐┬  ┌─┐
-└─┐││││├─┘│  ├┤ 
-└─┘┴┴ ┴┴  ┴─┘└─┘
-┌─┐┌─┐─┐ ┬      
-├┤ │ │┌┴┬┘      
-└  └─┘┴ └─
-
 by Miguel Avila and mgcvale
 
 */
 
 /*
- 
-┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-│  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-└─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
-
+ config
 */
 
 :root {
@@ -37,9 +26,7 @@ by Miguel Avila and mgcvale
 /*─────────────────────────────*/
 
 /* 
-┌─┐┌─┐┬  ┌─┐┬─┐┌─┐
-│  │ ││  │ │├┬┘└─┐
-└─┘└─┘┴─┘└─┘┴└─└─┘ 
+colors
 */
 
 /* Tabs colors  */
@@ -77,14 +64,7 @@ by Miguel Avila and mgcvale
 }
 
 /* 
-
-┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐            
- ││├┤ │  ├┤  │ ├┤             
-─┴┘└─┘┴─┘└─┘ ┴ └─┘            
-┌─┐┌─┐┌┬┐┌─┐┌─┐┌┐┌┌─┐┌┐┌┌┬┐┌─┐
-│  │ ││││├─┘│ ││││├┤ │││ │ └─┐
-└─┘└─┘┴ ┴┴  └─┘┘└┘└─┘┘└┘ ┴ └─┘
-
+deleted components
 */
 
 /* Tabs elements  */
@@ -92,9 +72,10 @@ by Miguel Avila and mgcvale
   display: none;
 }
 
+/*
 .tabbrowser-tab:not([pinned]) .tab-icon-image {
   display: none !important;
-}
+}*/
 
 #nav-bar:not([tabs-hidden='true']) {
   box-shadow: none;
@@ -125,7 +106,7 @@ by Miguel Avila and mgcvale
 
 .tabbrowser-tab > * > *{
   border-radius: 8px !important;
-  border: 1px solid Menu;
+  border: 2px solid Menu;
   box-shadow: 0 0 6px Menu;
   margin: 4px !important;
   margin-top: 8px !important;
@@ -134,7 +115,7 @@ by Miguel Avila and mgcvale
 }
 
 .tabbrowser-tab[selected="true"] > * > * {
-  border: 1px solid GrayText !important;
+  border: 2px solid GrayText !important;
   transition: 500ms;
   transform: scale(1.05);
   margin-left: 8px !important;
