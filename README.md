@@ -24,9 +24,9 @@ Mainly based on the dotfiles of [Matt-FTW](https://github.com/Matt-FTW/dotfiles)
 
 <html>
   <br>
-  <img src="screenshots/ss1.jpeg">
+  <img src="screenshots/ss1.png">
   <hr>
-  <img src="screenshots/ss2.jpeg">
+  <img src="screenshots/ss2.png">
   <hr>
-  <img src="screenshots/ss3.jpeg">
+  <img src="screenshots/ss3.png">
 </html>
