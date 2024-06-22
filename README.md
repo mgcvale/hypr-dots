@@ -14,11 +14,10 @@ Mainly based on the dotfiles of [Matt-FTW](https://github.com/Matt-FTW/dotfiles)
 - thunar file manager
 - Kvantum Manager
 - nwg-look
-- wal
+- wal / pywal
 - neovim
 - swaync
 - swappy
-- pywal
 
 # Screenshots
 
